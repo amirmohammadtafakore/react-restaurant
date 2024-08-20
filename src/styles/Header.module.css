@@ -1,0 +1,18 @@
+.headerWrapper{
+    @apply w-1/5 relative;
+}
+.navContainer{
+    @apply fixed top-0 p-16 flex h-screen flex-col bg-res-100;
+}
+.searchInput{
+    @apply my-6 w-full p-4 rounded-md placeholder:text-res-400 bg-res-200;
+}
+.listContainer{
+    @apply text-xl rounded-md text-res-400 bg-res-200
+}
+.listItem{
+    @apply p-4 border-b-2 border-res-400;
+}
+.themeButton{
+    @apply p-4 mt-4 text-center  text-xl rounded-md bg-res-200  text-res-400;
+}

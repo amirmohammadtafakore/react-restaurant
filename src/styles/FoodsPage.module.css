@@ -1,0 +1,21 @@
+.mainContainer{
+    @apply mx-auto  flex justify-center p-14 w-4/5 bg-res-200;
+}
+.foodContainer{
+    @apply flex flex-col justify-center rounded-md pb-10 bg-res-100;
+}
+.pageTitleBlock{
+    @apply flex justify-between items-center px-20 py-5;
+}
+.pageTitle{
+    @apply text-4xl uppercase text-res-400 font-bold mt-10 text-center mb-10;
+}
+.foodsList{
+    @apply grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-10
+}
+.foodCard{
+    @apply bg-res-400 shadow-md rounded-lg px-10 py-10;
+}
+.foodCardButton{
+    @apply  mt-4 bg-res-300 p-4 w-full rounded-md text-lg text-res-400;
+}
